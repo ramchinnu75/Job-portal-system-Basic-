@@ -1,0 +1,24 @@
+.view{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: 1100px;
+    
+ }
+ .boxess{
+    border: 3px solid black;
+    height: 585px;
+    width: 23%;
+    background-color: #eee; 
+    text-align: center;
+ }
+ .boxess h1{
+    font-size: 20px;
+ }
+ .box-imgs{
+    height: 337px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+ }

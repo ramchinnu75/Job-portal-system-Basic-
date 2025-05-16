@@ -1,0 +1,62 @@
+button.right{
+    width: 200px;
+    padding: 15px;
+    margin: 20px 5px;
+    text-align: center;
+    border-radius: 25px;
+    color: black;
+    border: 2px;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: 600;
+}
+button:hover{
+    background: rgb(0, 192, 226);
+    transition: 0.5s;
+}
+button:hover{
+    color: white;
+}
+button.right {
+        float: right;
+      }
+button.left{
+    width: 200px;
+    padding: 15px;
+    margin: 20px 5px;
+    text-align: center;
+    border-radius: 25px;
+    color: black;
+    border: 2px;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: 600;
+}
+button.left {
+        float: left;
+      }
+.view{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: 800px;
+    
+ }
+
+ .boxess{
+    border: 3px solid black;
+    height: 120px;
+    width: 50%;
+    background-color: #eee; 
+    text-align: center;
+ }
+ .boxess h1{
+    font-size: 20px;
+ }
+.box-imgs{
+    height: 50px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+ }
